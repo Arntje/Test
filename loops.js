@@ -62,12 +62,13 @@ for (let i=0; i<15; i++)    {
 // >> 7
 // >> 9
 // ==========================================
-for (let i = 0; i < 10; i++)    {
-    if (i<3)    {
+for (let i = 0; i < 10; i++) {
+    if (i < 3) {
         console.log(i);
-    } else if (i>=3 && i<6)   {
+    } else if (i >= 3 && i < 6) {
         console.log("> " + i);
-    } else  {
+    } else {
         console.log(">> " + i);
     }
+    console.log("Testje voor GitHub");
 }
